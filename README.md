@@ -9,7 +9,6 @@ A React parcel starter project
 - Formatting with prettier
 - Testing with jest and enzyme
 - React 16
-- SCSS
 
 ## Getting started
 
