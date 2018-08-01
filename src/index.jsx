@@ -18,5 +18,8 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 // Hot Module Replacement
 if (module.hot) {
+  //dev mode
   module.hot.accept();
+} else {
+  // production mode
 }

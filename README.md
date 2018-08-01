@@ -20,6 +20,6 @@ To start the development server with hot module reloading, run:
 To build for production
 
 * first remove the folders `dist` and `.cache`
-* then run: `npm run build -- --release`
+* then run: `npm run build`
 
 *Note, parcel is currently unable to support minfication os ES2015 code—github.com/parcel-bundler/parcel/issues/8*
