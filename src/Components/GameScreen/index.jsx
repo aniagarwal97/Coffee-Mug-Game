@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './styles.css';
 import CoffeeCups from '../CoffeeCupsComponent';
 import { minRandomNumberGenerator } from '../../Utils/Util';
 
