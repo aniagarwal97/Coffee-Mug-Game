@@ -1,25 +1,31 @@
+// React Dependencies
 import React from "react";
 import ReactDOM from "react-dom";
-import styled from "styled-components";
+// import 
+// import components
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes';
+import Header from './Components/HeaderComponent';
 
-const StyledText = styled.p`
-  color: darkgoldenrod;
-  text-decoration: underline;
-`
-
-const App = () => (
-  <div>
-    <h1>React parcel starter</h1>
-    <StyledText>This text is styled with styled components :)</StyledText>
-  </div>
-);
+export default class App extends React.Component {
+	render() {
+		return (
+			<div>
+				<Header />
+				<Router>
+					<Routes />
+				</Router>
+			</div>
+		);
+	}
+}
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // Hot Module Replacement
 if (module.hot) {
-  //dev mode
-  module.hot.accept();
+	//dev mode
+	module.hot.accept();
 } else {
-  // production mode
+	// production mode
 }

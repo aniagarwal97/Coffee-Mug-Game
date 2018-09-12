@@ -1,0 +1,30 @@
+.cups-count{
+    text-align: center;
+    font-size: 12px;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; 
+}
+.arrow-icon{
+    font-size: 20px;
+    margin: 0;
+    padding: 0 15px;
+}
+.cups-input{
+    width: 65px; 
+    height: 65px; 
+    border: 1px solid black; 
+    font-size: 30px;
+    padding: 7px 10px 5px 24px;
+}
+.cups-input-button{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.start-button, .pause-button{
+    margin-top: 10;
+    padding: 3px 40px;
+}

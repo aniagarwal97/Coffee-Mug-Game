@@ -1,0 +1,13 @@
+.app-name{
+    color: white;
+    font-size: 10px;
+}
+.header-image{
+    width: 15px;
+    vertical-align: middle;
+    padding-left: 7px;
+}
+.header-bar{
+    background-color: #c0c0c0;
+    padding: 6px 10px;
+}

@@ -26,3 +26,7 @@ pids
 *.pid
 *.seed
 *.pid.lock
+
+# Lock Files
+*.lock
+package-lock.json
