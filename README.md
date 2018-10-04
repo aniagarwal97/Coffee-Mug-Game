@@ -1,4 +1,4 @@
-# react-parcel-starter
+# Coffee-Mug-Game
 
 A React parcel starter project
 
